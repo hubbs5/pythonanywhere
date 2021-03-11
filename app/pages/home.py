@@ -9,7 +9,7 @@ layout = html.Div([
     html.P('The code and tutorial can be found in the links below:'),
     html.A('Code', href='https://github.com/hubbs5/pythonanywhere', target='_blank'),
     html.Br(),
-    dcc.A('Tutorial', href='/tutorial'),
+    html.A('Tutorial', href='/tutorial'),
     html.P('Other pages in the app:'),
     dcc.Link('BTC Pricing', href='/btc'),
     html.Br(),
