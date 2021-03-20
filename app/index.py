@@ -23,7 +23,7 @@ def display_page(pathname):
     elif pathname == '/eth':
         return page2.layout
     else:
-        app.logger.warning("404 Error")
+        app.logger.debug("404 Error")
         return "404", 
         # return home.layout
 
